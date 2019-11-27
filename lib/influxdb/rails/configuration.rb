@@ -35,6 +35,7 @@ module InfluxDB
         password:       "root".freeze,
         database:       nil,
         auth_method:    "params".freeze,
+        auth_token:     nil,
         async:          true,
         use_ssl:        false,
         retry:          nil,

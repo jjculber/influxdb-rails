@@ -37,6 +37,7 @@ module InfluxDB
             username:       cfg.username,
             password:       cfg.password,
             auth_method:    cfg.auth_method,
+            auth_token:     cfg.auth_token,
             hosts:          cfg.hosts,
             port:           cfg.port,
             async:          cfg.async,
