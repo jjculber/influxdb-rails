@@ -34,10 +34,12 @@ module InfluxDB
           cfg = configuration.client
           InfluxDB::Client.new \
             database:       cfg.database,
+            bucket:         cfg.bucket,
             username:       cfg.username,
             password:       cfg.password,
             auth_method:    cfg.auth_method,
             auth_token:     cfg.auth_token,
+            org_id:         cfg.org_id,
             hosts:          cfg.hosts,
             port:           cfg.port,
             async:          cfg.async,
