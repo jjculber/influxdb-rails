@@ -42,6 +42,7 @@ module InfluxDB
             org_id:         cfg.org_id,
             hosts:          cfg.hosts,
             port:           cfg.port,
+            prefix:         cfg.prefix,
             async:          cfg.async,
             use_ssl:        cfg.use_ssl,
             retry:          cfg.retry,

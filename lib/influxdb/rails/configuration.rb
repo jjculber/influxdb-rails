@@ -30,6 +30,7 @@ module InfluxDB
 
       set_defaults(
         hosts:          ["localhost"].freeze,
+        prefix:         "".freeze,
         port:           8086,
         username:       "root".freeze,
         password:       "root".freeze,
